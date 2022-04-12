@@ -10,6 +10,7 @@ import {HttpClient} from '@angular/common/http'
 export class AppComponent implements OnInit{
   title = 'The title being pulled to the html page from the app component...known as interpolation';
   users : any;
+  myVal = 5;
 
   constructor(private http:HttpClient) {}
   ngOnInit(){

@@ -17,6 +17,5 @@ namespace API.Entities
             set { myVar = value; }
         }
         
-        
     }
 }
