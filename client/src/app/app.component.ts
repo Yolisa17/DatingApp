@@ -24,4 +24,9 @@ export class AppComponent implements OnInit{
       error => {console.log(error)}
       );
   }
+
+  submitInfo()
+  {
+    console.log("SubmitInfo");
+  }
 }

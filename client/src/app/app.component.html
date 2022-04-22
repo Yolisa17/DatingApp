@@ -1,11 +1,10 @@
 <h1>DatingApp</h1>
 <h2>{{title}}</h2>
 
- <form action="DatingForm">
+
     Name: <input>
     age: <input>
     <button>Accept Details</button>
-</form>
 
 <div *ngIf="users == 5; else statementElse">This represents the ngif statement</div>
 <ng-template #statementElse>This represents the else of the ngif statement</ng-template>
